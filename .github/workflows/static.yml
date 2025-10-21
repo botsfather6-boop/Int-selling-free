@@ -1,55 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Get APK</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #000;
-      color: #fff;
-      font-family: 'Poppins', sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-    }
-    img {
-      width: 150px;
-      height: 150px;
-      border-radius: 20px;
-      object-fit: contain;
-      margin-bottom: 30px;
-    }
-    a {
-      text-decoration: none;
-    }
-    .btn {
-      background-color: #00aaff;
-      color: white;
-      padding: 14px 40px;
-      font-size: 18px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: 0.3s;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-    .btn:hover {
-      background-color: #0088cc;
-      transform: scale(1.05);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download APK</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+        }
+        a {
+            text-decoration: none;
+        }
+        button {
+            background-color: #0088cc;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #006699;
+        }
+    </style>
 </head>
 <body>
-  <img src="your-image.png" alt="App Logo" />
-  <a href="https://t.me/+BbmsfQaRjbplNjll" target="_blank">
-    <button class="btn">Get APK</button>
-  </a>
+    <img src="Screenshot_20251021-155002_WhatsApp.jpg" alt="App Image">
+    <a href="https://t.me/+BbmsfQaRjbplNjll" target="_blank">
+        <button>Get Apk</button>
+    </a>
 </body>
 </html>
